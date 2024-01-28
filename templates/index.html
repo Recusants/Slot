@@ -1,11 +1,36 @@
-<!-- templates/home.html -->
-{% extends 'base.html' %}
-{% load static %}
-{% block title %}
-Home
-{% endblock %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% block content %}
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Gentlemen's Barber Shop - HTML CSS Template</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-barber-shop.css" rel="stylesheet">
+<!--
+
+TemplateMo 585 Barber Shop
+
+https://templatemo.com/tm-585-barber-shop
+
+-->
+    </head>
+    
+    <body>
 
         <div class="container-fluid">
             <div class="row">
@@ -18,7 +43,7 @@ Home
 
                     <div class="position-sticky sidebar-sticky d-flex flex-column justify-content-center align-items-center">
                         <a class="navbar-brand" href="index.html">
-                            <img src="{% static '' %}images/templatemo-barber-logo.png" class="logo-image img-fluid" align="">
+                            <img src="images/templatemo-barber-logo.png" class="logo-image img-fluid" align="">
                         </a>
 
                         <ul class="nav flex-column">
@@ -63,7 +88,7 @@ Home
                             </div>
 
                             <div class="custom-block d-lg-flex flex-column justify-content-center align-items-center">
-                                <img src="{% static '' %}images/vintage-chair-barbershop.jpg" class="custom-block-image img-fluid" alt="">
+                                <img src="images/vintage-chair-barbershop.jpg" class="custom-block-image img-fluid" alt="">
 
                                 <h4><strong class="text-white">Hurry Up! Get good haircut.</strong></h4>
 
@@ -87,7 +112,7 @@ Home
                                     <h6 class="mb-5">Meet Babers</h6>
 
                                         <div class="col-lg-5 col-12 custom-block-bg-overlay-wrap me-lg-5 mb-5 mb-lg-0">
-                                            <img src="{% static '' %}images/barber/portrait-male-hairdresser-with-scissors.jpg" class="custom-block-bg-overlay-image img-fluid" alt="">
+                                            <img src="images/barber/portrait-male-hairdresser-with-scissors.jpg" class="custom-block-bg-overlay-image img-fluid" alt="">
 
                                             <div class="team-info d-flex align-items-center flex-wrap">
                                                 <p class="mb-0">Redo</p>
@@ -112,7 +137,7 @@ Home
                                         </div>
 
                                         <div class="col-lg-5 col-12 custom-block-bg-overlay-wrap mt-4 mt-lg-0 mb-5 mb-lg-0">
-                                            <img src="{% static '' %}images/barber/portrait-mid-adult-bearded-male-barber-with-folded-arms.jpg" class="custom-block-bg-overlay-image img-fluid" alt="">
+                                            <img src="images/barber/portrait-mid-adult-bearded-male-barber-with-folded-arms.jpg" class="custom-block-bg-overlay-image img-fluid" alt="">
 
                                             <div class="team-info d-flex align-items-center flex-wrap">
                                                 <p class="mb-0">Sam</p>
@@ -164,7 +189,7 @@ Home
 
                                 <div class="col-lg-6 col-12 mb-4">
                                     <div class="services-thumb">
-                                        <img src="{% static '' %}images/services/woman-cutting-hair-man-salon.jpg" class="services-image img-fluid" alt="">
+                                        <img src="images/services/woman-cutting-hair-man-salon.jpg" class="services-image img-fluid" alt="">
 
                                         <div class="services-info d-flex align-items-end">
                                             <h4 class="mb-0">Hair cut</h4>
@@ -176,7 +201,7 @@ Home
 
                                 <div class="col-lg-6 col-12 mb-4">
                                     <div class="services-thumb">
-                                        <img src="{% static '' %}images/services/hairdresser-grooming-their-client.jpg" class="services-image img-fluid" alt="">
+                                        <img src="images/services/hairdresser-grooming-their-client.jpg" class="services-image img-fluid" alt="">
 
                                         <div class="services-info d-flex align-items-end">
                                             <h4 class="mb-0">Washing</h4>
@@ -188,7 +213,7 @@ Home
 
                                 <div class="col-lg-6 col-12 mb-4 mb-lg-0">
                                     <div class="services-thumb">
-                                        <img src="{% static '' %}images/services/hairdresser-grooming-client.jpg" class="services-image img-fluid" alt="">
+                                        <img src="images/services/hairdresser-grooming-client.jpg" class="services-image img-fluid" alt="">
 
                                         <div class="services-info d-flex align-items-end">
                                             <h4 class="mb-0">Shaves</h4>
@@ -200,7 +225,7 @@ Home
 
                                 <div class="col-lg-6 col-12">
                                     <div class="services-thumb">
-                                        <img src="{% static '' %}images/services/boy-getting-haircut-salon-front-view.jpg" class="services-image img-fluid" alt="">
+                                        <img src="images/services/boy-getting-haircut-salon-front-view.jpg" class="services-image img-fluid" alt="">
 
                                         <div class="services-info d-flex align-items-end">
                                             <h4 class="mb-0">Kids</h4>
@@ -331,7 +356,7 @@ Home
                                 </div>
 
                                 <div class="col-lg-4 col-12 custom-block-bg-overlay-wrap mt-5 mb-5 mb-lg-0 mt-lg-0 pt-3 pt-lg-0">
-                                    <img src="{% static '' %}images/vintage-chair-barbershop.jpg" class="custom-block-bg-overlay-image img-fluid" alt="">
+                                    <img src="images/vintage-chair-barbershop.jpg" class="custom-block-bg-overlay-image img-fluid" alt="">
                                 </div>
 
                             </div>
@@ -473,8 +498,11 @@ Home
                 </footer>
             </div>
 
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
     </body>
 </html>
-{% endblock %}
-
-

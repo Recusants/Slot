@@ -6,10 +6,27 @@ Login - SaralGyaan
 {% endblock %}
 
 {% block content %}
-<h2>Login to SaralGyaan</h2>
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Login</button>
-</form>
+<section class="booking-section section-padding" id="booking-section">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-lg-10 col-12 mx-auto">
+              <form action="#" method="post" class="custom-form booking-form" id="bb-booking-form" role="form">
+                  <div class="text-center mb-5">
+                      <h2 class="mb-1">Book a seat</h2>
+
+                      <p>Please fill out the form and we get back to you</p>
+                  </div>
+
+                  <div class="booking-form-body">
+                      {% csrf_token %}
+                      {{ form.as_p }}
+                      <div class="col-lg-4 col-md-10 col-8 mx-auto" style="display: flex;">
+                          <button type="submit" class="form-control" style="background: lightblue;">Login</button><button type="submit" class="form-control">Cancel</button>
+                      </div>
+                  </div>
+              </form>
+      </div>
+  </div>
+</section>
 {% endblock %}
